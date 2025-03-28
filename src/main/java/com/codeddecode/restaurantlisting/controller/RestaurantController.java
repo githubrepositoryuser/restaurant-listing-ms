@@ -24,6 +24,7 @@ public class RestaurantController {
         return new ResponseEntity<>(allRestaurants, HttpStatus.OK);
     }
 
+
     @PostMapping("/addRestaurant")
     public ResponseEntity<RestaurantDTO> saveRestaurant(@RequestBody RestaurantDTO restaurantDTO) {
         RestaurantDTO restaurantAdded = restaurantService.addRestaurantInDB(restaurantDTO);

@@ -8,6 +8,9 @@ spring:
   application:
     name: RESTAURANT-SERVICE
   datasource:
+    url: jdbc:mysql://sql12.freesqldatabase.com:3306/sql12770669
+    username: sql12770669
+    password: DPS2Q7JixQ
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
